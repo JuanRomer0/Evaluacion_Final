@@ -7,6 +7,7 @@ public interface IUnitOfWork
 {
     // colocar todos los repositorios
     IAdministradorRepository Admins { get; }
+    IRecepcionistaRepository Recep { get; }
     ICitaRepository Citas { get; }
     IClienteRepository Clientes { get; }
     IDetalleOrdenRepository DetalleOrden { get; }
